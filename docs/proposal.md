@@ -20,6 +20,13 @@ There are many datasets available online to recognize human activities using mac
 
 We will try to reuse some of these datasets for this project. In order to show live demo of this project, we are also planning to collect some data from "Motionsense HRV Wrist Sensor". This sensor has IMU ( 9 DOF - Accelerometer, Gyroscope and Magnetometer ) and a PPG sensor to measure heart-rate.
 
+# Models for Data Processing 
+Data from these wearables can be processed using either classical models (Naive Bayes, random forests, SVMs) or neural models (MLP, CNN, LSTM, TCN etc.) to predict 
+the activity being performed.
+
+# Human Activities
+Some of the human activities which can be targeted under this project are lying, sitting, standing, walking, running, cycling, Nordic walking, watching TV, computer work, car driving, ascending stairs, descending stairs, vacuum cleaning, ironing, folding laundry, house cleaning, playing soccer, rope jumping etc.
+
 # Timeline
 * **Week 6:** Data Collection using online sources and wearable.
 * **Week 7:** Data Preprocessing and Model Development.
